@@ -68,7 +68,7 @@ function Home() {
       {loading ? ( <div className="loading">Loading..</div> // if loading, display loading, otherwise show movie
       ) : (
 
-      <div className="movie-grid">
+      <div className="movies-grid">
         {movies.map(
           (
             movie // using .map function which is going to iterate over all the value in the array, and for all values, itll take it and pass it through the function. this function then returns some jsx code, in this case returning a component, and then display this for every movie

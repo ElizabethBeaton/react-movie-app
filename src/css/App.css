@@ -6,15 +6,3 @@
     display: flex;
     flex-direction: column;
   }
-
-  /* App.css (or Home.css) */
-.movie-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr)); /* 3 per row */
-  gap: 20px;
-  align-items: start;
-}
-
-/* optional responsiveness */
-@media (max-width: 900px) { .movie-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
-@media (max-width: 600px) { .movie-grid { grid-template-columns: 1fr; } }
